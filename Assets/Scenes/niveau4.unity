@@ -1735,7 +1735,8 @@ Prefab:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8172474, guid: dfcc47e2611b4d74091fa7930b7b2db2, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: dfcc47e2611b4d74091fa7930b7b2db2, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &382020634
@@ -2452,6 +2453,10 @@ Prefab:
       propertyPath: m_Name
       value: Minion (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 11489640, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
+      propertyPath: Hero
+      value: 
+      objectReference: {fileID: 1239308127}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
   m_IsPrefabParent: 0
@@ -2598,6 +2603,10 @@ Prefab:
       propertyPath: m_Name
       value: Minion (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 11489640, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
+      propertyPath: Hero
+      value: 
+      objectReference: {fileID: 1239308127}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
   m_IsPrefabParent: 0
@@ -2670,6 +2679,10 @@ Prefab:
       propertyPath: m_Name
       value: Minion (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 11489640, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
+      propertyPath: Hero
+      value: 
+      objectReference: {fileID: 1239308127}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
   m_IsPrefabParent: 0
@@ -4728,6 +4741,10 @@ Prefab:
       propertyPath: m_Name
       value: Minion (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 11489640, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
+      propertyPath: Hero
+      value: 
+      objectReference: {fileID: 1239308127}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
   m_IsPrefabParent: 0
@@ -5169,6 +5186,10 @@ Prefab:
       propertyPath: m_Name
       value: Minion (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 11489640, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
+      propertyPath: Hero
+      value: 
+      objectReference: {fileID: 1239308127}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
   m_IsPrefabParent: 0
@@ -5749,6 +5770,10 @@ Prefab:
       propertyPath: cible
       value: 
       objectReference: {fileID: 1239308127}
+    - target: {fileID: 11489640, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
+      propertyPath: Hero
+      value: 
+      objectReference: {fileID: 1239308127}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
   m_IsPrefabParent: 0
@@ -5965,6 +5990,17 @@ Prefab:
 GameObject:
   m_PrefabParentObject: {fileID: 137040, guid: e9a07119597bbb74db009a9a14b10939, type: 2}
   m_PrefabInternal: {fileID: 1617820518}
+--- !u!114 &1239308128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1239308127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1a657da3ec3b046b0547269c38fb5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1245436786 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 69bf0a1a9d07d4aca989d4a09515c383, type: 3}
@@ -7904,6 +7940,10 @@ Prefab:
       propertyPath: m_Name
       value: Minion (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 11489640, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
+      propertyPath: Hero
+      value: 
+      objectReference: {fileID: 1239308127}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
   m_IsPrefabParent: 0
@@ -8324,6 +8364,10 @@ Prefab:
       propertyPath: m_Name
       value: Minion (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 11489640, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
+      propertyPath: Hero
+      value: 
+      objectReference: {fileID: 1239308127}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
   m_IsPrefabParent: 0
@@ -9402,6 +9446,10 @@ Prefab:
       propertyPath: m_Name
       value: Minion (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 11489640, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
+      propertyPath: Hero
+      value: 
+      objectReference: {fileID: 1239308127}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
   m_IsPrefabParent: 0
@@ -9615,6 +9663,10 @@ Prefab:
       propertyPath: m_Name
       value: Minion (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 11489640, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
+      propertyPath: Hero
+      value: 
+      objectReference: {fileID: 1239308127}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
   m_IsPrefabParent: 0
@@ -11009,6 +11061,10 @@ Prefab:
       propertyPath: m_Name
       value: Minion (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 11489640, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
+      propertyPath: Hero
+      value: 
+      objectReference: {fileID: 1239308127}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
   m_IsPrefabParent: 0
@@ -11266,6 +11322,10 @@ Prefab:
       propertyPath: m_Name
       value: Minion (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 11489640, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
+      propertyPath: Hero
+      value: 
+      objectReference: {fileID: 1239308127}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
   m_IsPrefabParent: 0
@@ -12246,6 +12306,10 @@ Prefab:
       propertyPath: m_Name
       value: Minion (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 11489640, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
+      propertyPath: Hero
+      value: 
+      objectReference: {fileID: 1239308127}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
   m_IsPrefabParent: 0
@@ -12434,6 +12498,10 @@ Prefab:
       propertyPath: m_Name
       value: Minion (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 11489640, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
+      propertyPath: Hero
+      value: 
+      objectReference: {fileID: 1239308127}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a3612c95f2eb3c9448a12147926332d6, type: 2}
   m_IsPrefabParent: 0

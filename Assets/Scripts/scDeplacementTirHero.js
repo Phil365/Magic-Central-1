@@ -100,6 +100,7 @@ private var nouveauProjectile:GameObject;
  */
 
 private var force:int=100;
+
  /*
  * Qte de mana utilisé pour le Pouvoir
  * @access public
@@ -259,13 +260,13 @@ function regenMana(){
 
 function MettreAJourTotal(nbPotionsMana:uint)
 {
-manatotal=nbPotionsMana;
+	manatotal=nbPotionsMana;
 
 }
 
 function MettreAJourTotalVie(nbPotionsVie:uint)
 {
-vieTotal=nbPotionsVie;
+	vieTotal=nbPotionsVie;
 
 }
 public function PrendDamage(quantite:int)

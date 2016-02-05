@@ -30,15 +30,67 @@ public var degatMinion:float;
  * @var scObjetRamasse
  */   
 
-
 private var scObjetRamasse:scObjetRamasse;
 
+/*
+ * Variable d'expérience gagnée
+ * @access public
+ * @var xpGagnee
+ */   
+
+public var xpGagnee:int = 10;
+
+/*
+ * Hero
+ * @access public
+ * @var Hero
+ */   
+
+public var Hero:GameObject;
+
+/*
+ * Référence au script de gestion d'expérience
+ * @access public
+ * @var scGestionXP
+ */   
+
+private var scGestionXP:scGestionXP;
+
 function Start () {
+
 	scObjetRamasse = GetComponent.<scObjetRamasse>();
+	scGestionXP = Hero.GetComponent.<scGestionXP>();
+
+
+
+		 if (Application.loadedLevel == 3) 
+		 {
+		 	xpGagnee = 10;
+		 }
+		 if (Application.loadedLevel == 4) 
+		 {
+		 	xpGagnee = 20;
+		 }
+		 if (Application.loadedLevel == 5) 
+		 {
+		 	xpGagnee = 30;
+		 }
+		 if (Application.loadedLevel == 6) 
+		 {
+		 	xpGagnee = 40;
+		 }
+		 if (Application.loadedLevel == 7) 
+		 {
+		 	xpGagnee = 50;
+		 }
+
 }
 
 function Update () {
 	if (vieMinion <=0) {
+
+		scGestionXP.SendMessageUpwards("augmenterExperience", xpGagnee , SendMessageOptions.DontRequireReceiver);
+
 		Destroy(this.gameObject);
 		//Si l'ennemi meurt on définit l'objet gagné aléatoirement
 		var hasard = Random.Range(1, 6);
@@ -62,6 +114,7 @@ function Update () {
 			scObjetRamasse.SendMessageUpwards("InstancierObjet", "potionMana", SendMessageOptions.DontRequireReceiver);
 			break;
 		}
+
 	}
 }
 
