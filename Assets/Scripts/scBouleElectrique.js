@@ -49,6 +49,17 @@ function Start () {
 	planes = GeometryUtility.CalculateFrustumPlanes(cam);
 	projectileCollider = GetComponent.<Collider>();
 
+	if (PlayerPrefs.HasKey("degatsSpell"))
+	{
+		degat = PlayerPrefs.GetInt('degatsSpell'); 
+	}
+	else 
+	{
+		degat = 10; 
+	}
+
+
+
 }
 
 function Update () {
@@ -75,3 +86,8 @@ function OnTriggerEnter (autre : Collider) {
 
 }
 
+function augmenterDegats(degatUp:int) 
+{
+	degat = degat+degatUp;
+	PlayerPrefs.SetInt("degatsSpell", degat);
+}
