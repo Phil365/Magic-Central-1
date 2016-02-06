@@ -14,8 +14,13 @@ TagManager:
   - potionVie
   - potionMana
   - tasOr
-  - teleportNiveeau2
-  - teleportNiveeau2Etage
+  - teleportNiveau2(1Etage)
+  - teleportNiveau2(2Etage)
+  - teleportNiveau4(2Etage)
+  - teleportNiveau4(1Etage)
+  - teleportNiveau5
+  - teleportNiveau3
+  - teleportNiveau4
   layers:
   - Default
   - TransparentFX
